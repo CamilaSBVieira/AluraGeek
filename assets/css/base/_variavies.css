@@ -6,6 +6,9 @@
     --preto-claro: #464646;
     --cinza: #746F6F;
     --cinza-claro: #9B9595;
+    --preto-transparente: #0000000F;
+
+    --sombra: .3rem .3rem .3rem rgba(0, 0, 0, .2);
 
     --familia-fonte: 'Raleway', sans-serif;
     --tamanho-corpo: 1.4rem;

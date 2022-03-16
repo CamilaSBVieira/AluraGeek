@@ -1,8 +1,9 @@
 .cartao-produto {
-    display: grid;
+    display: block;
     font-weight: var(--peso-destaque);
     width: 15.6rem;
     max-height: 24.9rem;
+    margin: 1rem;
 }
 .cartao-produto_imagem {
     width: 100%;
@@ -18,4 +19,5 @@
     background-color: var(--preto-claro);
     color: var(--branco);
     width: calc(15.6rem + 1rem);
+    margin: 0;
 }
