@@ -8,15 +8,16 @@
 .botao-primario {
     color: var(--branco);
     background-color: var(--preto);
+    border: none;
 }
-.botao-primario:hover {
-    background-color: var(--cinza);
-}
+/*.botao-primario:hover {
+    background-color: var(--cinza-claro);
+}*/
 .botao-secundario {
     color: var(--preto);
     background-color: var(--branco);
     border: 1px solid var(--preto);
 }
-.botao-secundario:hover {
+/*.botao-secundario:hover {
     background-color: var(--cinza-claro);
-}
+}*/
