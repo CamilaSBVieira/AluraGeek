@@ -1,0 +1,26 @@
+.rodape {
+    background-color: var(--cinza);
+}
+.rodape_mais-informacoes {
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.6rem;
+    text-align: center;
+}
+.rodape_logo {
+    width: 10rem;
+    height: 2.8rem;
+}
+.rodape_form {
+    padding: 0 1.6rem 1.6rem;
+}
+.rodape_form-campo {
+    width: 100%;
+    border: none;
+}
+.rodape_creditos {
+    background-color: var(--branco);
+    padding: 1.6rem;
+}

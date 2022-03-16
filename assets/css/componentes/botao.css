@@ -1,0 +1,22 @@
+.botao {
+    font-weight: var(--peso-botao);
+    box-sizing: border-box;
+    padding: .8rem 1.6rem;
+    min-width: 120px;
+    max-height: 2.8rem;
+}
+.botao-primario {
+    color: var(--branco);
+    background-color: var(--preto);
+}
+.botao-primario:hover {
+    background-color: var(--cinza);
+}
+.botao-secundario {
+    color: var(--preto);
+    background-color: var(--branco);
+    border: 1px solid var(--preto);
+}
+.botao-secundario:hover {
+    background-color: var(--cinza-claro);
+}

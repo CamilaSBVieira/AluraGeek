@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="assets/css/componentes/cartao-produto.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <title>Home | Alura Geek</title>
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="cabecalho_logo">
+        <button class="botao botao-secundario">Login</button>
+        <img src="assets/img/icones/lupa.svg" alt="Pesquisar Produto" class="cabecalho_pesquisa">
+    </header>
+    <main class="container">
+            <button class="botao botao-primario">Eu sou um botao</button>
+            <button class="botao botao-secundario">Eu sou um botao</button>
+
+            <article class="cartao-produto">
+                <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto tal</p>
+                    <p class="cartao-produto_preco">Preço tal</p>
+                    <a href="#" class="cartao-produto_link">Link tal</a>
+                </div>
+            </article>
+    </main>
+    <footer class="rodape">
+            <div class="rodape_mais-informacoes">
+                <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="rodape_logo">
+                <ul>
+                    <li><a href="#">Quem somos nós</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Programa de fidelidade</a></li>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Quero ser franqueado</a></li>
+                    <li><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <form action="" class="rodape_form">
+                <h3>Fale conosco</h3>
+                <input type="text" placeholder="Nome" class="rodape_form-campo">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem" class="rodape_form-campo"></textarea>
+                <input type="text" class="botao botao-primario">
+            </form>
+        <p class="rodape_creditos">Desenvolvido por Camila Vieira<br>
+        2022 &copy;</p>
+    </footer>
 </body>
 </html>

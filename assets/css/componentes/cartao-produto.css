@@ -1,0 +1,21 @@
+.cartao-produto {
+    display: grid;
+    font-weight: var(--peso-destaque);
+    width: 15.6rem;
+    max-height: 24.9rem;
+}
+.cartao-produto_imagem {
+    width: 100%;
+}
+.cartao-produto_descricao {
+    font-weight: var(--peso-padrao);
+}
+.cartao-produto_link {
+    color: var(--preto);
+    text-decoration: none;
+}
+.cartao-produto:hover {
+    background-color: var(--preto-claro);
+    color: var(--branco);
+    width: calc(15.6rem + 1rem);
+}

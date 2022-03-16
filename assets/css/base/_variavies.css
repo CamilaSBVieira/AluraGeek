@@ -1,0 +1,29 @@
+:root {
+    /*cores*/
+    font-size: 62,5%;
+    --branco: #FFFFFF;
+    --preto: #1F1B1B;
+    --preto-claro: #464646;
+    --cinza: #746F6F;
+    --cinza-claro: #9B9595;
+
+    --familia-fonte: 'Raleway', sans-serif;
+    --tamanho-corpo: 1.4rem;
+
+    --peso-destaque: 700;
+    --peso-botao: 600;
+    --peso-padrao: 500;
+
+    --tamanho-titulo-banner: 5.2rem;
+    --tamanho-subtitulo-banner: 2.2rem;
+    --tamanho-titulo: 3.2rem;
+    --tamanho-alternativo: 1.6rem;
+}
+
+/*
+:root {
+    
+    posso fazer um sombreamento no hover do cartão
+    --preto-transparente: #0000000F;
+}
+*/
