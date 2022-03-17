@@ -11,15 +11,21 @@
     border: none;
     box-shadow: var(--sombra);
 }
-/*.botao-primario:hover {
-    background-color: var(--cinza-claro);
-}*/
 .botao-secundario {
     color: var(--preto-claro);
     background-color: var(--branco);
     border: 1px solid var(--preto-claro);
     box-shadow: var(--sombra);
 }
-/*.botao-secundario:hover {
-    background-color: var(--cinza-claro);
-}*/
+@media screen and (min-width: 900px) {
+    .botao-primario:hover {
+        background-color: var(--cinza-claro);
+    }
+    .botao-secundario:hover {
+        background-color: var(--cinza-claro);
+    }
+    #cabecalho_botao-login {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}

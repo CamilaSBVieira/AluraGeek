@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base/base.css">
     <link rel="stylesheet" href="assets/css/componentes/botao.css">
     <link rel="stylesheet" href="assets/css/componentes/cartao-produto.css">
     <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
     <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <link rel="stylesheet" href="assets/css/componentes/banner.css">
+    <link rel="stylesheet" href="assets/css/componentes/container.css">
     <title>Home | Alura Geek</title>
 </head>
+
 <body>
-    <header class="cabecalho">
-        <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="cabecalho_logo">
+    <header class="cabecalho container">
+        <div>
+            <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="cabecalho_logo">
+            <div class="pesquisa cabecalho_pesquisa-desktop">
+                <input class="cabecalho_pesquisa-campo-desktop" id="pesquisa-desktop">
+                <label for="pesquisa-desktop">
+                    <img src="assets/img/icones/lupa.svg" alt="Pesquisar na loja"
+                        class="cabecalho_pesquisa-icone-desktop">
+                </label>
+            </div>
+            <!--desktop-->
+        </div>
         <button class="botao botao-secundario" id="cabecalho_botao-login">Login</button>
-        <div class="cabecalho_pesquisa">
+        <div class="pesquisa cabecalho_pesquisa">
             <input class="cabecalho_pesquisa-campo" id="pesquisa">
             <label for="pesquisa">
                 <img src="assets/img/icones/lupa.svg" alt="Pesquisar na loja" class="cabecalho_pesquisa-icone">
             </label>
         </div>
+        <!--mobile-->
         <script src="assets/js/cabecalho-pesquisa.js"></script>
     </header>
-    <main>
-            <button class="botao botao-primario">Eu sou um botao</button>
-            <button class="botao botao-secundario">Eu sou um botao</button>
+    <main class="container">
+        <button class="botao botao-primario">Eu sou um botao</button>
+        <button class="botao botao-secundario">Eu sou um botao</button>
 
-            <article class="cartao-produto">
-                <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
-                <div>
-                    <p class="cartao-produto_descricao">Produto tal</p>
-                    <p class="cartao-produto_preco">Preço tal</p>
-                    <a href="#" class="cartao-produto_link">Link tal</a>
-                </div>
-            </article>
-            <article class="cartao-produto">
-                <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
-                <div>
-                    <p class="cartao-produto_descricao">Produto tal</p>
-                    <p class="cartao-produto_preco">Preço tal</p>
-                    <a href="#" class="cartao-produto_link">Link tal</a>
-                </div>
-            </article>
+        <article class="cartao-produto">
+            <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
+            <div>
+                <p class="cartao-produto_descricao">Produto tal</p>
+                <p class="cartao-produto_preco">Preço tal</p>
+                <a href="#" class="cartao-produto_link">Link tal</a>
+            </div>
+        </article>
+        <article class="cartao-produto">
+            <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
+            <div>
+                <p class="cartao-produto_descricao">Produto tal</p>
+                <p class="cartao-produto_preco">Preço tal</p>
+                <a href="#" class="cartao-produto_link">Link tal</a>
+            </div>
+        </article>
     </main>
 </body>
+
 </html>
