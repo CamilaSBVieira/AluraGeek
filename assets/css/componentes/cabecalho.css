@@ -10,3 +10,41 @@
     width: 10rem;
     height: 2.8rem;
 }
+.cabecalho_pesquisa {
+    background-color: var(--cinza-claro);
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--sombra);
+}
+.cabecalho_pesquisa-campo {
+    display: none;
+}
+.cabecalho_pesquisa-campo:focus {
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
+}
+.cabecalho_pesquisa-icone {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.cabecalho_pesquisa-ativa {
+    width: 50%;
+    height: 2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    transition: .4s;
+}
+.cabecalho_pesquisa-campo-ativo {
+    display: block;
+    background-color: transparent;
+    width: 100%;
+}
+.cabecalho_pesquisa-icone-desativado {
+    display: none;
+}

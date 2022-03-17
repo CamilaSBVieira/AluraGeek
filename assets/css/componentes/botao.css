@@ -15,9 +15,9 @@
     background-color: var(--cinza-claro);
 }*/
 .botao-secundario {
-    color: var(--preto);
+    color: var(--preto-claro);
     background-color: var(--branco);
-    border: 1px solid var(--preto);
+    border: 1px solid var(--preto-claro);
     box-shadow: var(--sombra);
 }
 /*.botao-secundario:hover {

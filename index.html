@@ -18,8 +18,14 @@
 <body>
     <header class="cabecalho">
         <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="cabecalho_logo">
-        <button class="botao botao-secundario">Login</button>
-        <img src="assets/img/icones/lupa.svg" alt="Pesquisar Produto" class="cabecalho_pesquisa">
+        <button class="botao botao-secundario" id="cabecalho_botao-login">Login</button>
+        <div class="cabecalho_pesquisa">
+            <input class="cabecalho_pesquisa-campo" id="pesquisa">
+            <label for="pesquisa">
+                <img src="assets/img/icones/lupa.svg" alt="Pesquisar na loja" class="cabecalho_pesquisa-icone">
+            </label>
+        </div>
+        <script src="assets/js/cabecalho-pesquisa.js"></script>
     </header>
     <main>
             <button class="botao botao-primario">Eu sou um botao</button>
