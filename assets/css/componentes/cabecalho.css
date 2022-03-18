@@ -34,7 +34,7 @@
     .cabecalho_pesquisa-desktop {
         display: flex;
         box-sizing: border-box;
-        width: 20rem;
+        width: 15rem;
         height: 2rem;
         padding-left: .3rem;
         padding-right: .3rem;
@@ -51,6 +51,11 @@
         box-shadow: 0 0 0 0;
         border: none;
         outline: 0;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .cabecalho_pesquisa-desktop {
+        width: 30rem;
     }
 }
 .cabecalho_pesquisa-campo {

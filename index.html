@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/componentes/container.css">
     <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <link rel="stylesheet" href="assets/css/componentes/logotipo.css">
+    <link rel="stylesheet" href="assets/css/componentes/banner.css">
     <title>Home | Alura Geek</title>
 </head>
 
@@ -26,7 +27,7 @@
     <header class="cabecalho container">
         <div>
             <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="logotipo">
-            <!--desktop-->
+            <!--DESKTOP-->
             <div class="pesquisa cabecalho_pesquisa-desktop">
                 <input class="cabecalho_pesquisa-campo-desktop" id="pesquisa-desktop">
                 <label for="pesquisa-desktop">
@@ -37,7 +38,7 @@
             <!--desktop-->
         </div>
         <button class="botao botao-secundario" id="cabecalho_botao-login">Login</button>
-        <!--mobile-->
+        <!--MOBILE-->
         <div class="pesquisa cabecalho_pesquisa">
             <input class="cabecalho_pesquisa-campo" id="pesquisa">
             <label for="pesquisa">
@@ -47,6 +48,11 @@
         <!--mobile-->
         <script src="assets/js/cabecalho-pesquisa.js"></script>
     </header>
+    <div class="container banner">
+        <h2 class="banner_titulo">Maio Promocional</h1>
+        <p class="banner_descricao">Produtos selecionados com 33% de desconto</p>
+        <button class="botao botao-secundario banner_botao">Ver Ofertas</button>
+    </div>
     <main class="container">
         <!--BOTÕES-->
         <button class="botao botao-primario">Eu sou um botao</button>
@@ -86,8 +92,10 @@
             </div>
             <form class="rodape_contato">
                 <label class="rodape_contato-item contato_titulo-destaque">Fale conosco</label>
-                <input class="rodape_contato-item rodape_contato-input" type="text" placeholder="Nome" aria-label="Nome">
-                <textarea class="rodape_contato-item rodape_contato-input" placeholder="Escreva sua mensagem" aria-label="Escreva sua mensagem"></textarea>
+                <input class="rodape_contato-item rodape_contato-input" type="text" placeholder="Nome"
+                    aria-label="Nome">
+                <textarea class="rodape_contato-item rodape_contato-input" placeholder="Escreva sua mensagem"
+                    aria-label="Escreva sua mensagem"></textarea>
                 <button class="rodape_contato-botao rodape_contato-item botao botao-secundario">Enviar mensagem</button>
             </form>
         </section>
