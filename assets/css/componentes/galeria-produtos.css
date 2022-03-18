@@ -7,6 +7,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+.galeria article:nth-last-child(1) {
+    display: none;
+}
+.galeria article:nth-last-child(2) {
+    display: none;
+}
 @media screen and (min-width: 700px) {
     .galeria {
         display: grid;
@@ -17,6 +23,12 @@
     .galeria {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
+    }
+    .galeria article:nth-last-child(1) {
+        display: block;
+    }
+    .galeria article:nth-last-child(2) {
+        display: block;
     }
 }
 /*HEADER LISTA*/
