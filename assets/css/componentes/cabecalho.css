@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     height: 2.8rem;
 }
 .pesquisa {

@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base/base.css">
     <link rel="stylesheet" href="assets/css/componentes/botao.css">
-    <link rel="stylesheet" href="assets/css/componentes/cartao-produto.css">
+    <link rel="stylesheet" href="assets/css/componentes/galeria-produtos.css">
     <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
     <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <link rel="stylesheet" href="assets/css/componentes/banner.css">
@@ -50,32 +50,142 @@
     </header>
     <div class="container banner">
         <h2 class="banner_titulo">Maio Promocional</h1>
-        <p class="banner_descricao">Produtos selecionados com 33% de desconto</p>
-        <button class="botao botao-secundario banner_botao">Ver Ofertas</button>
+            <p class="banner_descricao">Produtos selecionados com 33% de desconto</p>
+            <button class="botao botao-secundario banner_botao">Ver Ofertas</button>
     </div>
     <main class="container">
         <!--BOTÕES-->
         <button class="botao botao-primario">Eu sou um botao</button>
         <button class="botao botao-secundario">Eu sou um botao</button>
 
-        <!--CARTÃO PRODUTO-->
-        <article class="cartao-produto">
-            <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
-            <div>
-                <p class="cartao-produto_descricao">Produto tal</p>
-                <p class="cartao-produto_preco">Preço tal</p>
-                <a href="#" class="cartao-produto_link">Link tal</a>
+        <!--GALERIA DE PRODUTOS-->
+        <section class="galeria">
+            <div class="galeria_header">
+                <h2 class="galeria_titulo">Star Wars
+                    <i class="galeria_titulo-icone galeria_titulo-icone-sw"></i>
+                </h2>
+                <a href="#" class="galeria_header-link">Ver todos<i></i></a>
             </div>
-        </article>
-        <article class="cartao-produto">
-            <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
-            <div>
-                <p class="cartao-produto_descricao">Produto tal</p>
-                <p class="cartao-produto_preco">Preço tal</p>
-                <a href="#" class="cartao-produto_link">Link tal</a>
+            <!--CARTÃO PRODUTO-->
+            <article class="cartao-produto">
+                <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/starWars/starwars-02.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/starWars/starwars-03.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/starWars/starwars-04.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="galeria">
+            <div class="galeria_header">
+                <h2 class="galeria_titulo">Consoles
+                    <i class="galeria_titulo-icone galeria_titulo-icone-console"></i>
+                </h2>
+                <a href="#" class="galeria_header-link">Ver todos<i></i></a>
             </div>
-        </article>
+            <!--CARTÃO PRODUTO-->
+            <article class="cartao-produto">
+                <img src="assets/img/console/console-01.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/console/console-02.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/console/console-03.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/console/console-04.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="galeria">
+            <div class="galeria_header">
+                <h2 class="galeria_titulo">Diversos
+                    <i class="galeria_titulo-icone galeria_titulo-icone-diversos"></i>
+                </h2>
+                <a href="#" class="galeria_header-link">Ver todos<i></i></a>
+            </div>
+            <!--CARTÃO PRODUTO-->
+            <article class="cartao-produto">
+                <img src="assets/img/diversos/diversos-01.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/diversos/diversos-02.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/diversos/diversos-03.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+            <article class="cartao-produto">
+                <img src="assets/img/diversos/diversos-04.png" class="cartao-produto_imagem">
+                <div>
+                    <p class="cartao-produto_descricao">Produto XYZ</p>
+                    <p class="cartao-produto_preco">R$ 60,00</p>
+                    <a href="#" class="cartao-produto_link">Ver produto</a>
+                </div>
+            </article>
+        </section>
     </main>
+
     <!--FOOTER-->
     <footer>
         <section class="container rodape_container">

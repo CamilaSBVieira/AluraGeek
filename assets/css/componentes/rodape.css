@@ -37,7 +37,7 @@
     }
 }*/
 .rodape_container {
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     display: flex;
     flex-direction: column;
     gap: 2rem;

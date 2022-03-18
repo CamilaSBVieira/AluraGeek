@@ -1,0 +1,139 @@
+.galeria {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+@media screen and (min-width: 700px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width: 1366px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+/*HEADER LISTA*/
+.galeria_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1/ span 2;
+}
+@media screen and (min-width: 700px) {
+    .galeria_header {
+        grid-column: 1 / span 4;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .galeria_header {
+        grid-column: 1 / span 6;
+    }
+}
+.galeria_titulo {
+    font-size: 1.375rem;
+    line-height: 1.563rem;
+    display: flex;
+    align-items: center;
+    font-weight: var(--peso-destaque);
+}
+.galeria_titulo-icone {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: .5rem;
+}
+.galeria_titulo-icone-sw {
+    background-image: url(../../img/icones/starwars.png);
+}
+.galeria_titulo-icone-console {
+    background-image: url(../../img/icones/console.png);
+}
+.galeria_titulo-icone-diversos {
+    background-image: url(../../img/icones/diversos.svg);
+}
+.galeria_header-link {
+    font-size: .875rem;
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: var(--peso-destaque);
+    display: flex;
+    align-items: center;
+}
+.galeria_header-link i {
+    display: block;
+    padding-left: .5rem;
+    width: .875rem;
+    height: .875rem;
+    background-image: url(../../img/icones/seta.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media  screen and (min-width: 700px) {
+    .galeria_titulo {
+        font-size: 3.25rem;
+        line-height: 4.063rem;
+    }
+    .galeria_titulo-icone {
+        width: 3.25rem;
+        height: 4.063rem;
+    }
+    .galeria_header-link {
+        font-size: 1rem;
+    }
+    .galeria_header-link i {
+        display: block;
+        padding-left: .5rem;
+        width: 1rem;
+        height: 1rem;
+    }
+}
+/*HEADER LISTA*/
+
+/*CARTÕES*/
+.cartao-produto {
+    display: block;
+    font-weight: var(--peso-destaque);
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    font-size: .875rem;
+}
+.cartao-produto_imagem {
+    width: 100%;
+    padding-bottom: .5rem;
+}
+.cartao-produto_descricao {
+    font-weight: var(--peso-padrao);
+    padding-bottom: .5rem;
+}
+.cartao-produto_preco {
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+.cartao-produto_link {
+    color: var(--preto);
+    text-decoration: none;
+}
+@media  screen and (min-width: 1366px) {
+    .cartao-produto {
+        margin: 1rem;
+    }
+    .cartao-produto:hover {
+        background-color: var(--cinza-claro);
+        color: var(--branco);
+        width: calc(100% + 1rem);
+        padding: 1rem;
+        margin: 0;
+    }   
+}
