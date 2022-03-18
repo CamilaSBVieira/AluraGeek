@@ -16,13 +16,17 @@
     <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <link rel="stylesheet" href="assets/css/componentes/banner.css">
     <link rel="stylesheet" href="assets/css/componentes/container.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+    <link rel="stylesheet" href="assets/css/componentes/logotipo.css">
     <title>Home | Alura Geek</title>
 </head>
 
 <body>
+    <!--CABEÇALHO-->
     <header class="cabecalho container">
         <div>
-            <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="cabecalho_logo">
+            <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="logotipo">
+            <!--desktop-->
             <div class="pesquisa cabecalho_pesquisa-desktop">
                 <input class="cabecalho_pesquisa-campo-desktop" id="pesquisa-desktop">
                 <label for="pesquisa-desktop">
@@ -33,6 +37,7 @@
             <!--desktop-->
         </div>
         <button class="botao botao-secundario" id="cabecalho_botao-login">Login</button>
+        <!--mobile-->
         <div class="pesquisa cabecalho_pesquisa">
             <input class="cabecalho_pesquisa-campo" id="pesquisa">
             <label for="pesquisa">
@@ -43,9 +48,11 @@
         <script src="assets/js/cabecalho-pesquisa.js"></script>
     </header>
     <main class="container">
+        <!--BOTÕES-->
         <button class="botao botao-primario">Eu sou um botao</button>
         <button class="botao botao-secundario">Eu sou um botao</button>
 
+        <!--CARTÃO PRODUTO-->
         <article class="cartao-produto">
             <img src="assets/img/starWars/starwars-01.png" class="cartao-produto_imagem">
             <div>
@@ -63,6 +70,31 @@
             </div>
         </article>
     </main>
+    <!--FOOTER-->
+    <footer>
+        <section class="container rodape_container">
+            <div>
+                <img src="assets/img/logotipo/logo.svg" class="logotipo rodape_logo">
+                <ul class="rodape_links">
+                    <li><a href="#" class="rodape_links-link">Quem somos nós</a></li>
+                    <li><a href="#" class="rodape_links-link">Política de privacidade</a></li>
+                    <li><a href="#" class="rodape_links-link">Programa de fidelidade</a></li>
+                    <li><a href="#" class="rodape_links-link">Nossas lojas</a></li>
+                    <li><a href="#" class="rodape_links-link">Quero ser franqueado</a></li>
+                    <li><a href="#" class="rodape_links-link">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <form class="rodape_contato">
+                <label class="rodape_contato-item contato_titulo-destaque">Fale conosco</label>
+                <input class="rodape_contato-item rodape_contato-input" type="text" placeholder="Nome" aria-label="Nome">
+                <textarea class="rodape_contato-item rodape_contato-input" placeholder="Escreva sua mensagem" aria-label="Escreva sua mensagem"></textarea>
+                <button class="rodape_contato-botao rodape_contato-item botao botao-secundario">Enviar mensagem</button>
+            </form>
+        </section>
+        <section class="rodape_creditos">
+            <p>Desenvolvido por Camila Vieira &copy;<br>2022</p>
+        </section>
+    </footer>
 </body>
 
 </html>

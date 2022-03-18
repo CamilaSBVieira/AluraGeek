@@ -13,10 +13,6 @@
     align-items: center;
     justify-content: center;
 }
-.cabecalho_logo {
-    width: 10rem;
-    height: 2.8rem;
-}
 .cabecalho_pesquisa {
     box-sizing: border-box;
     width: 2rem;
