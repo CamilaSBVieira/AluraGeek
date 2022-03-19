@@ -10,16 +10,15 @@
     --sombra: .3rem .3rem .3rem rgba(0, 0, 0, .2);
 
     --familia-fonte: 'Raleway', sans-serif;
+    --tamanho-corpo-mobile: .875rem;
+    --tamanho-corpo: 1rem;
+    --tamanho-titulo-banner-notmobile: 3.25rem;
+    --tamanho-descricao-banner-notmobile: 1.375rem;
+    --tamanho-titulo-banner: 1.375rem;
+    --tamanho-descricao-banner: .875rem;
+    --tamanho-destaque: 1rem;
 
     --peso-destaque: 700;
     --peso-botao: 600;
     --peso-padrao: 500;
 }
-
-/*
-:root {
-    
-    posso fazer um sombreamento no hover do cartão
-    --preto-transparente: #0000000F;
-}
-*/

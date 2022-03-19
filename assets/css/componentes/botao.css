@@ -15,12 +15,13 @@
     border: 1px solid var(--preto-claro);
     box-shadow: var(--sombra);
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1366px) {
     .botao-primario:hover {
         background-color: var(--cinza-claro);
     }
     .botao-secundario:hover {
-        background-color: var(--cinza-claro);
+        background-color: var(--preto-claro);
+        color: var(--branco);
     }
     #cabecalho_botao-login {
         padding-left: 5rem;

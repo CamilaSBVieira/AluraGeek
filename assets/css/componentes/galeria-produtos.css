@@ -7,10 +7,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
-.galeria article:nth-last-child(1) {
-    display: none;
-}
-.galeria article:nth-last-child(2) {
+.galeria article:nth-last-child(-n+2) {
     display: none;
 }
 @media screen and (min-width: 700px) {
@@ -24,10 +21,7 @@
         display: grid;
         grid-template-columns: repeat(6, 1fr);
     }
-    .galeria article:nth-last-child(1) {
-        display: block;
-    }
-    .galeria article:nth-last-child(2) {
+    .galeria article:nth-last-child(-n+2) {
         display: block;
     }
 }
@@ -49,11 +43,8 @@
     }
 }
 .galeria_titulo {
-    font-size: 1.375rem;
-    line-height: 1.563rem;
     display: flex;
     align-items: center;
-    font-weight: var(--peso-destaque);
 }
 .galeria_titulo-icone {
     display: block;
@@ -65,16 +56,15 @@
     margin-left: .5rem;
 }
 .galeria_titulo-icone-sw {
-    background-image: url(../../img/icones/starwars.png);
+    background-image: url(../../img/icones/starwars-2.png);
 }
 .galeria_titulo-icone-console {
     background-image: url(../../img/icones/console.png);
 }
 .galeria_titulo-icone-diversos {
-    background-image: url(../../img/icones/diversos.svg);
+    background-image: url(../../img/icones/diversos.png);
 }
 .galeria_header-link {
-    font-size: .875rem;
     text-decoration: none;
     color: var(--preto);
     font-weight: var(--peso-destaque);
@@ -92,16 +82,13 @@
     background-size: cover;
 }
 @media  screen and (min-width: 700px) {
-    .galeria_titulo {
-        font-size: 3.25rem;
-        line-height: 4.063rem;
-    }
     .galeria_titulo-icone {
-        width: 3.25rem;
-        height: 4.063rem;
+        width: 4rem;
+        height: 4rem;
+        margin-left: 1rem;
     }
     .galeria_header-link {
-        font-size: 1rem;
+        font-size: var(--tamanho-destaque);
     }
     .galeria_header-link i {
         display: block;
@@ -119,7 +106,6 @@
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    font-size: .875rem;
 }
 .cartao-produto_imagem {
     width: 100%;
@@ -131,11 +117,13 @@
 }
 .cartao-produto_preco {
     padding-bottom: .5rem;
-    font-size: 1rem;
+    color: var(--preto-claro);
+    font-size: var(--tamanho-destaque);
 }
 .cartao-produto_link {
     color: var(--preto);
     text-decoration: none;
+    font-size: var(--tamanho-destaque);
 }
 @media  screen and (min-width: 1366px) {
     .cartao-produto {
@@ -145,7 +133,7 @@
         background-color: var(--cinza-claro);
         color: var(--branco);
         width: calc(100% + 1rem);
-        padding: 1rem;
+        padding: .5rem;
         margin: 0;
     }   
 }
