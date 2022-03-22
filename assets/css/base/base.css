@@ -4,6 +4,7 @@
 @import url(../componentes/cabecalho.css);
 @import url(../componentes/logotipo.css);
 @import url(../componentes/rodape.css);
+@import url(../componentes/input.css);
 
 body {
     font-family: var(--familia-fonte);
