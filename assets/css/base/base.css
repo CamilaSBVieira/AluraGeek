@@ -22,7 +22,7 @@ body {
     padding: 0 1rem;
 }
 .banner_titulo {
-    font-size: var(--tamanho-titulo-banner);
+    font-size: var(--tamanho-titulo);
     line-height: 1.563rem;
 }
 .banner_descricao {
@@ -34,11 +34,11 @@ body {
         height: 352px;
     }
     .banner_titulo {
-        font-size: var(--tamanho-titulo-banner-notmobile);
+        font-size: var(--tamanho-titulo-notmobile);
         line-height: 4.063rem;
     }
     .banner_descricao {
-        font-size: var(--tamanho-descricao-banner-notmobile);
+        font-size: var(--tamanho-descricao-notmobile);
         line-height: 1.563rem;
     }
 }
@@ -61,7 +61,7 @@ body {
 }
 @media  screen and (min-width: 700px) {
     .galeria_titulo {
-        font-size: 3.25rem;
+        font-size: 2rem;
         line-height: 4.063rem;
     }
     .galeria_titulo-icone {
