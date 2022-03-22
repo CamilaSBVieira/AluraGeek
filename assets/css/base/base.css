@@ -1,5 +1,5 @@
-@import url(_reset.css);
-@import url(_variavies.css);
+@import url(reset.css);
+@import url(variavies.css);
 @import url(../componentes/botao.css);
 @import url(../componentes/cabecalho.css);
 @import url(../componentes/logotipo.css);
