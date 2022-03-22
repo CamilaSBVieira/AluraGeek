@@ -1,26 +1,7 @@
-.galeria {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 100%;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
 .galeria article:nth-last-child(-n+2) {
     display: none;
 }
-@media screen and (min-width: 700px) {
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
 @media screen and (min-width: 1366px) {
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-    }
     .galeria article:nth-last-child(-n+2) {
         display: block;
     }
