@@ -1,7 +1,12 @@
 .botao {
     font-weight: var(--peso-botao);
+    font-family: var(--familia-fonte);
+    font-size: var(--tamanho-botao);
     padding: .8rem 1.6rem;
     max-height: 2.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .botao-primario {
     color: var(--branco);
