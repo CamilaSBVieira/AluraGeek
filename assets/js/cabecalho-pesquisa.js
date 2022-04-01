@@ -4,7 +4,7 @@ const pesquisaBarra = document.querySelector('.cabecalho_pesquisa')
 const botaoLogin = document.querySelector('.botao')
 const header = document.querySelector('.cabecalho')
 
-botaoPesquisa.addEventListener('click', () => {
+botaoPesquisa.onclick = () => {
     pesquisaCampo.classList.toggle('cabecalho_pesquisa-campo-ativo')
     botaoPesquisa.classList.toggle('cabecalho_pesquisa-icone-desativado')
     pesquisaBarra.classList.toggle('cabecalho_pesquisa-ativa')
@@ -17,4 +17,4 @@ botaoPesquisa.addEventListener('click', () => {
             pesquisaCampo.classList.replace('cabecalho_pesquisa-campo-ativo', 'cabecalho_pesquisa-campo')
         }
     }
-})
+}

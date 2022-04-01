@@ -17,7 +17,7 @@
 <body>
     <header class="cabecalho container">
         <div>
-            <img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="logotipo">
+            <a href="./index.html"><img src="assets/img/logotipo/logo.svg" alt="Logotipo da Alura Geek Store" class="logotipo"></a>
             <!--DESKTOP-->
             <div class="pesquisa cabecalho_pesquisa-desktop">
                 <input class="cabecalho_pesquisa-campo-desktop" id="pesquisa-desktop">
@@ -40,11 +40,15 @@
         <script src="assets/js/cabecalho-pesquisa.js"></script>
     </header>
 
-    <main class="container form-login">
-        <h2 class="form-login_titulo texto-destaque">Iniciar Sessão</h2>
-        <input type="text" class="form-login_input entrada-texto" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
-        <input type="password" class="form-login_input entrada-texto" placeholder="Insira sua senha" aria-label="Insira sua senha">
-        <button class="form-login_botao botao botao-primario">Entrar</button>
+    <main class="container">
+        <form  class="form-login" action="" method="GET">
+            <h2 class="form-login_titulo texto-destaque">Iniciar Sessão</h2>
+            <input type="text" class="form-login_input entrada-texto" placeholder="Insira seu e-mail"
+                aria-label="Insira seu e-mail" required>
+            <input type="password" class="form-login_input entrada-texto" placeholder="Insira sua senha"
+                aria-label="Insira sua senha" required minlength="8" maxlength="15">
+            <input type="submit" class="form-login_botao botao botao-primario" value="Fazer Login">
+        </form>
     </main>
 
     <footer>
@@ -63,10 +67,10 @@
             <form class="rodape_contato">
                 <label class="rodape_contato-item contato_titulo-destaque">Fale conosco</label>
                 <input class="rodape_contato-item rodape_contato-input entrada-texto" type="text" placeholder="Nome"
-                    aria-label="Nome">
-                <textarea class="rodape_contato-item rodape_contato-input entrada-texto" placeholder="Escreva sua mensagem"
-                    aria-label="Escreva sua mensagem"></textarea>
-                <button class="rodape_contato-botao rodape_contato-item botao botao-secundario">Enviar mensagem</button>
+                    aria-label="Nome" maxlength="100" required>
+                <textarea class="rodape_contato-item rodape_contato-input entrada-texto"
+                    placeholder="Escreva sua mensagem" aria-label="Escreva sua mensagem" required></textarea>
+                <input class="rodape_contato-botao rodape_contato-item botao botao-secundario" type="submit" value="Enviar mensagem">
             </form>
         </section>
         <section class="rodape_creditos texto-destaque">
